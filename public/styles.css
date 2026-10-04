@@ -139,7 +139,7 @@
        nav li {
             display: inline-block;
             margin: 30px;
-            margin-top: -700px;
+            margin-top: -100px;
         }
         nav a {
             color: white;
@@ -152,6 +152,13 @@
 
         nav li:first-child{
             margin-right: auto;
+        }
+
+        nav img{
+            height: 30px;
+            width: 30px;
+            
+            background: white;
         }
 
         .sidebar{
@@ -288,4 +295,19 @@
             text-align: center;
             text-transform: lowercase;
             font-family: varsity regular;
+        }
+
+        .features_contact {
+            background: white;
+            color: black;
+            font-size: 50px;
+            text-align: center;
+            text-transform: bold;
+            font-family: 'Anarchaos';
+        }
+        
+        .features_contact img{
+            height: 200px;
+            width: 200px;
+            text-align: center;
         }
