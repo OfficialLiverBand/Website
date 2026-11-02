@@ -1,10 +1,17 @@
  @font-face {
             font-family: 'VarsityRegular';
-            src: url("fonts/varsity_regular.woff") format("woff");
+            src: url('/public/Fonts/varsity_regular.woff') format('woff');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
         }
+ @font-face {
+    font-family: 'Anarchaos';
+    src: url('/public/Fonts/Anarchaos.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: normal;
+ }
 
  
  
@@ -19,13 +26,12 @@
             text-transform: lowercase;
         }
 
-        
-
         .slider{
             width: 800px;
             height: 500px;
             border-radius: 10px;
             overflow: hidden;
+
         }
 
         .slides{
@@ -46,6 +52,13 @@
         .slide img{
             width: 800px;
             height: 500px;
+            align-items: center;
+        }
+
+        .slide video {
+            width: 800px;
+            height: 500px;
+            align-items: center;
         }
 
         .navigation-manual{
@@ -230,14 +243,16 @@
             text-transform: uppercase;
             width: 50px;
         }
-    .features figure video {
-    border: 1px solid white;
-    border-radius: 50%;
-    box-shadow: gray 0px 0px 10px;
-    width: 200px;
-    height: 200px;
-    object-fit: fill;
-    }
+
+        
+        .features figure video {
+            border: 1px solid white;
+            border-radius: 50%;
+            box-shadow: gray 0px 0px 10px;
+            width: 200px;
+            height: 200px;
+            object-fit: fill;
+        }
 
     .showsfeatures {
         background-color: white;
@@ -283,6 +298,11 @@
                     width: 100%;
                     max-width: 100px;
                 }
+                
+                .slider {
+                    height: auto;
+                    margin-left: 0px;
+                }
             }
 
         /* FOOTER */
@@ -294,7 +314,7 @@
             padding: 20px 20px;
             text-align: center;
             text-transform: lowercase;
-            font-family: varsity regular;
+            font-family: 'VarsityRegular';
         }
 
         .features_contact {
