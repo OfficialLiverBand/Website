@@ -1,7 +1,7 @@
  body {
             background: rgb(58, 58, 58);
             color: white;
-            font-family: 'varsity regular', Times, serif;
+            font-family: 'varsityRegular', sans-serif;
             margin: 0;
             padding: 0;
             font-size: 30px;
@@ -10,10 +10,11 @@
         }
 
         @font-face{
-            font-family: 'varsity regular';
+            font-family: 'varsityRegular';
             src: '/Fonts/varsity_regular.woff' format('woff');
             font-weight: normal;
             font-style: normal;
+            font-display: swap;
         }
 
 
