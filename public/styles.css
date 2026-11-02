@@ -1,6 +1,6 @@
- @font-face{
+ @font-face {
             font-family: 'VarsityRegular';
-            src: '../Fonts/varsity_regular.woff' format('woff');
+            src: url('.../public/Fonts/varsity_regular.woff') format('woff');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
