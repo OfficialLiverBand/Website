@@ -237,20 +237,16 @@
 
     .showsfeatures h1{
         text-align: center;
+        color: red;
     }
 
     .showsfeatures a {
         align-items: center;
     }
 
-        div {
-            background: none;
-            width: 100px;
-            margin: auto;
-        }
     
     .sk-bandsintown-event {
-        text-align: center;
+        align-items: center;
     }
         
         /* RESPONSIVE RULES */
