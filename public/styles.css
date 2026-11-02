@@ -11,7 +11,7 @@
  body {
             background: rgb(58, 58, 58);
             color: white;
-            font-family: 'VarsityRegular', sans-serif;
+            font-family: 'VarsityRegular', sans-serif !important;
             margin: 0;
             padding: 0;
             font-size: 30px;
@@ -243,7 +243,7 @@
         background-color: white;
         color: gray;
         padding: 20px;
-        font-family: 'varsity regular';
+        font-family: 'VarsityRegular', sans-serif !important;
 
     }
 
