@@ -9,6 +9,14 @@
             text-transform: lowercase;
         }
 
+        @font-face{
+            font-family: 'varsity regular';
+            src: '/Fonts/varsity_regular.woff' format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
         .slider{
             width: 800px;
             height: 500px;
