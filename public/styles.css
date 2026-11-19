@@ -1,13 +1,13 @@
  @font-face {
             font-family: 'VarsityRegular';
-            src: url('/public/Fonts/varsity_regular.woff?v=2') format('woff');
+            src: url('/public/Fonts/varsity_regular.woff') format('woff');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
         }
  @font-face {
     font-family: 'Anarchaos';
-    src: url('/public/Fonts/Anarchaos.woff?v=2') format("woff");
+    src: url('/public/Fonts/Anarchaos.woff') format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: normal;
@@ -31,6 +31,7 @@
             height: 500px;
             border-radius: 10px;
             overflow: hidden;
+            margin-left: 560px;
 
         }
 
@@ -162,7 +163,7 @@
         }
 
        nav li {
-            display: inline-block;
+            display: inline;
             margin: 30px;
             margin-top: -100px;
         }
@@ -299,6 +300,28 @@
                     max-width: 100px;
                 }
                 
+                .slider {
+                    height: auto;
+                    margin-left: 0px;
+                }
+            }
+
+            @media (max-width: 800px) {
+                .slider {
+                    height: auto;
+                    margin-left: 0px;
+                }
+            }
+
+            @media (max-width: 80px) {
+                .nav li {
+                    display: flex;
+                    margin: 10px;
+                    margin-top: 100px;
+                }
+            }
+            
+            @media (max-width: 1000px) {
                 .slider {
                     height: auto;
                     margin-left: 0px;
