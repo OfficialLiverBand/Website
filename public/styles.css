@@ -1,13 +1,13 @@
  @font-face {
             font-family: 'VarsityRegular';
-            src: url('/public/Fonts/varsity_regular.woff') format('woff');
+            src: url('Fonts/varsity_regular.woff') format('woff');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
         }
  @font-face {
     font-family: 'Anarchaos';
-    src: url('/public/Fonts/Anarchaos.woff') format("woff");
+    src: url('Fonts/Anarchaos.woff') format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: normal;
